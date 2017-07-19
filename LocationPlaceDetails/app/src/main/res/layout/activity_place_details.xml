@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <WebView 
+        android:id="@+id/wv_place_details"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent"  />
+    
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000"
+        android:text="Distance"
+        android:layout_weight="1"
+        android:textSize="20sp"
+        android:textColor="#ffd534"/>
+    <ImageView
+        android:id="@+id/navigate"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_direction_black" />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/share"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000"
+            android:text="Share"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:textColor="#ffd534"/>
+        <ImageView
+            android:id="@+id/my_loc"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/plus_sign" />
+    </LinearLayout>
+</LinearLayout>

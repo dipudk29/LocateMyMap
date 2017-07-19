@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<searchable xmlns:android="http://schemas.android.com/apk/res/android"
+    android:label="@string/app_name"
+    android:hint="Search Place"
+    android:searchSettingsDescription="Search place" 
+    
+    android:searchSuggestAuthority="com.durga.locatemymap.PlaceProvider"
+    android:searchSuggestIntentAction="android.intent.action.VIEW"    
+    android:searchSuggestSelection=" ?"
+    android:searchSuggestThreshold="2" >
+        
+</searchable>

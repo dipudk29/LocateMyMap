@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/near_by"
+        android:title="Near by"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/my_loc"
+        android:title="My Location"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/about"
+        android:title="About Us"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/share"
+        android:title="Share My Location"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item android:id="@+id/rate"
+        android:title="Rate Us"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+</menu>
